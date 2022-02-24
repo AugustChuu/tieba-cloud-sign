@@ -1,0 +1,27 @@
+.header {
+    height: 60px;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    border-bottom: solid;
+    border-color: #e3e3e3;
+    border-width: 4px;
+}
+
+
+.text {
+    color: #b0b0b0;
+    margin: 5px 0 0 20px;
+    font-size: 30px;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.text:hover {
+    cursor: default;
+}
+
+.icon {
+    color: #b0b0b0;
+    margin: 6px 5px 0 40px;
+    font-size: 40px;
+}

@@ -1,0 +1,48 @@
+.body {
+    background: #ffffff;
+    background: url("/public/bg1.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 49, 49, 0.71);
+}
+
+.content {
+    position: relative;
+    top: 100px;
+    padding: 60px;
+    margin: auto;
+    width: 600px;
+}
+
+.title {
+    font-family: -apple-system,BlinkMacSystemFont,
+        Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: #82bfff;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.button {
+    margin-top: 100px;
+}
+
+.text {
+    margin-top: 60px;
+    color: #dadada;
+    font-size: 18px;
+}
+
+.placeholder {
+    position: absolute;
+    bottom: 0;
+}

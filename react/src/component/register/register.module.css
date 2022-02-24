@@ -1,0 +1,48 @@
+.body {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: #c7c7c7 url("/public/bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 10vh auto auto;
+    padding: 20px;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+.input{
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.captchaInput {
+    margin-top: 10px;
+    width: 30%;
+}
+
+.captcha {
+    overflow: hidden;
+    float: right;
+    margin-left: 5vw;
+    margin-top: 6px;
+    width: 120px;
+    height: 40px;
+}
+
+.captcha:hover {
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.title:hover {
+    cursor: default;
+}
